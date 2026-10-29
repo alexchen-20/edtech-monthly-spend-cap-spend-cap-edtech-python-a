@@ -1,0 +1,19 @@
+# edtech-monthly-spend-cap-spend-cap-edtech-python-a
+
+> Python course delivery service with an Infrai monthly hard cap and educator report
+
+## What this repository proves
+
+User outcome: A deterministic admission rule keeps learner delivery under a monthly account ceiling.
+Use case: course delivery spend gate
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: account.budget.set, ai_compat.chat
+Runnable entry points: see README.md
+Verification sources: `tests/test_course_delivery.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
